@@ -1,0 +1,10 @@
+// Bootstrap
+@import "taboga/variables";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// IFARHU Taboga
+@import "taboga/mixins";
+@import "taboga/aside";
+@import "taboga/main-content";
+@import "taboga/sparkline";
+@import "taboga/components";

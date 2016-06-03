@@ -1,0 +1,19 @@
+aside#left-panel {
+  background: linear-gradient(to right, #f7f7f7 99%, #cacaca 100%);
+  width: 220px;
+
+  min-height: 100%;
+  height: auto;
+
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-top: 64px;
+
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 90;
+
+  display: block;
+}

@@ -1,0 +1,22 @@
+.btn {
+  @include shadow();
+}
+
+.navbar  {
+  @include shadow();
+}
+
+.jumbotron {
+  @include box-shadow(0, 2px, 0, rgba(0, 0, 0, 0.05), inset);
+}
+
+.panel {
+  border: 1px solid $navbar-default-border;
+  @include shadow();
+
+  &-default {
+    .close {
+      color: $text-color;
+    }
+  }
+}
