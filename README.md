@@ -12,23 +12,22 @@ Taboga tiene una historia muy colorida por el paso de muchas culturas por sus ti
 
 ## Instalación
 
-* Clonar el proyecto **Nuget-Taboga** al *escritorio*
-* Iniciar el **Visual Studio** y el proyecto deseado donde se va instalar el **Taboga**
-* Al momento de que el proyecto esté abierto, seleccionar la opcion **herramientas** de la barra de navegación superior.
-* Ir a la opcion de **Adminstrador de Paquetes NuGet**, luego opciones de **Configuración del Administrador de Paquetes**.
-* En la pestaña de **Origenes de paquete**, se debe agregar un nuevo origin de paquetes disponible, en el **signo de ('+').**
-* Clickear en el **boton de (...)** y especificar la carpeta de taboga encontrada en el **escritorio.**
-* Se debe colocar un nombre significativo para identificar este origen de paquete
+* Clonar el proyecto **Nuget-Taboga** al *escritorio*.
+* Iniciar el **Visual Studio** y el proyecto deseado donde se va instalar el **Taboga**.
+* Al momento de que el proyecto esté abierto, seleccionar la opción **herramientas** de la barra de navegación superior.
+* Ir a la opción de **Adminstrador de Paquetes NuGet**, luego opciones de **Configuración del Administrador de Paquetes**.
+* En la pestaña de **Orígenes de paquete**, se debe agregar un nuevo origen de paquetes disponible, en el **signo de ('+').**
+* Clickear en el **botón de (...)** y especificar la carpeta de **Taboga** encontrada en el **escritorio.**
+* Se debe colocar un nombre significativo para identificar este origen de paquete.
 * Dar click en **Aceptar**.
 * Nuevamente se escoge **Herramientas**, luego **Administrar paquetes NuGet para la solución...**.
-* En ventana emergente, se debe escoger la pestaña de Examinar, luego cambiar a mano derecha **Origen del Paquete:** al nombre del paquete que se especificó en pasos anteriores.
-* Escoger el paquete que nombró abajo, luego seleccionar en el checkbox el proyecto donde se va instalar taboga y clickear instalar.
-* Al instalarse el taboga, dirigirse al explorador de soluciones, y ubicar el archivo **package.json** y ejecutar ctrl+s para ejecutar el **npm install**.
-* Luego se procede al **bower.json**, en donde se hace ctrl+s para ejecutar el bower install.
-* Simplemente se debe guardar el **package.json** y este procede a realizar una serie de instalaciones de dependencias.
-* Luego abrir el archivo **gulpfile.js**, y selecionarlo en el **explorador de soluciones** con click derecho, y escoger la opcion **Explorador del Ejecutor de Tareas**.
-* En la ventana emergente se debe ver las tareas que estan asignadas al **gulpfile.js**, luego y hacer click derecho en la tarea **run_all** y escoger ejecutar.
-* Esto efectuará un gulp a nivel del proyecto, instalando las dependencias faltantes y colocando los compilados de **Taboga**.
+* En la ventana emergente, se debe escoger la pestaña de **Examinar**, luego cambiar a mano derecha **Origen del Paquete:** al nombre del paquete que se especificó en pasos anteriores.
+* Escoger el paquete que nombró abajo, luego seleccionar en el checkbox el proyecto donde se va instalar Taboga y clickear instalar.
+* Al instalarse el Taboga, dirigirse al explorador de soluciones, y ubicar el archivo **package.json** y ejecutar ctrl+s para ejecutar el **npm install**.
+* Luego se procede al **bower.json**, en donde se hace ctrl+s nuevamente para ejecutar el **bower install**.
+* Luego abrir el archivo **gulpfile.js**, y seleccionarlo en el **explorador de soluciones** con click derecho, y escoger la opción **Explorador del Ejecutor de Tareas**.
+* En la ventana emergente se debe ver las tareas que están asignadas al **gulpfile.js**, posteriormente hacer click derecho en la tarea **run_all** y escoger **ejecutar**.
+* Esto efectuará un **gulp** a nivel del proyecto, que por consecuencia instala las dependencias faltantes al igual que compila los archivos de **Taboga**. **.SASS* a css y *.js* en sus versiones .min respectivamente
 
 ## Componentes adicionales
 
