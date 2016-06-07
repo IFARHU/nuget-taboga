@@ -1,6 +1,9 @@
 // Bootstrap
 @import "taboga/variables";
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap";
+
+// font-awesome
+@import "../bower_components/fontawesome/scss/font-awesome";
 
 // IFARHU Taboga
 @import "taboga/mixins";
