@@ -40,17 +40,19 @@ Adicionalmente a los componentes con que ya cuenta Twitter Bootstrap, Taboga tie
 * Google Web Fonts
 
 ## Issues
-1. Al correr el **bower.json** se produce: ECMDERR Failed to execute "git clone https:… exit code of #-532462766
 
-Esto es un error relacionado al git que está bundled con el Visual Studio 2015, se debe descargar el git desde la fuente original, y asociarla a su visual studio.
+**Al correr el **bower.json** se produce: ECMDERR Failed to execute "git clone https:… exit code of #-532462766**
 
-### Trouble Shooting
+Esto es un error relacionado al git que está bundled con el Visual Studio 2015, se debe descargar el git desde la fuente original, y asociarla a su Visual Studio.
+
+### Troubleshooting
+
 * [Descargue Git](https://git-scm.com/downloads) desde su pagina web oficial.
 * Instale el git segun indique el wizard del instalador.
 * Abra el proyecto de Visual Studio donde aparece el error indicado.
 * Abrir **Herramientas** > **Opciones** desde la barra de navegación superior.
 * Ubicar a mano izquierda el tab de **Proyecto y soluciones** luego el tab de **Herramientas web externas**
-* Aquí hay que agregar una nueva ubicación para que el Visual Studio, utilize el **binario de git** que se descargo anteriormente.
+* Aquí hay que agregar una nueva ubicación para que el Visual Studio, utilice el **binario de git** que se descargó anteriormente.
 * Con su explorador escriba git bash, luego click derecho para **abrir ubicación de archivo**, si esto lleva a un **atajo**, simplemente repita este paso hasta que encuentre el **directorio de git**
 * Entrar en la carpeta **bin** luego copiar el **path** de este archivo, puede ser algo como **C:\\..AppData\Local\Programs\Git\bin**.
 * Devuelta en **visual studio**, haga click sobre el icono de nueva ubicación y agregue el **path** del bin de la carpeta git.
