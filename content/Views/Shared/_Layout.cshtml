@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFARHU - Taboga</title>
+
+    <!-- Estilos -->
+    @Styles.Render("~/Content/app-min.css")
+    @Styles.Render("~/bower_components/select2/select2.css")
+    @Styles.Render("~/bower_components/select2-bootstrap-css/select2-bootstrap.css")
+
+    <!-- Libreria modernizr -->
+    @Scripts.Render("~/bower_components/modernizr/modernizr.js")
+</head>
+<body>
+    <header id="header">
+        <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+            <div class="container-fluid">
+                @Html.ActionLink("IFARHU Taboga", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+        </nav>
+    </header>
+
+    <div class="container body-content">
+        @RenderBody()
+
+        <hr />
+
+        <footer>
+            <p>&copy; Dirección de Tecnología Informática, IFARHU, @DateTime.Now.Year.</p>
+        </footer>
+    </div>
+
+    <!-- Librerias -->
+    @Scripts.Render("~/bower_components/jquery/jquery.min.js")
+    @Scripts.Render("~/bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.min.js")
+    @Scripts.Render("~/bower_components/jquery-sparkline/dist/jquery.sparkline.js")
+    @Scripts.Render("~/bower_components/jquery-validation/dist/jquery.validate.min.js")
+    @Scripts.Render("~/bower_components/select2/select2.min.js")
+    @Scripts.Render("~/bower_components/select2/select2_locale_es.js")
+
+    <!-- Script -->
+    @Scripts.Render("~/Scripts/app-min.js")
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>
