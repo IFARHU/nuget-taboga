@@ -8,14 +8,9 @@
 var paths = {
     bowerDir: './bower_components/',
     Scripts: [
-        './bower_components/jquery-sparkline/dist/jquery.sparkline.js',
-        './bower_components/select2/select2.min.js',
-        './bower_components/select2/select2_locale_es.js',
-        './bower_components/jquery-validation/dist/jquery.validate.min.js',
         './Scripts/taboga.js'
     ],
-    main_scss: './Content/main.scss',
-    Style: ['./bower_components/select2/select2.css']
+    main_scss: './Content/main.scss'
 };
 
 gulp.task('bower', function () {
